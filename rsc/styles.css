@@ -1,0 +1,95 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(0, 0%, 94%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    color: hsl(0, 0%, 8%);
+  }
+  
+  .calculator {
+    background-color: hsl(0, 0%, 100%);
+    padding: 1rem;  /* Reduced padding */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5rem;  /* Reduced margin-bottom */
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5rem;  /* Reduced margin-bottom */
+  }
+  
+  label {
+    font-weight: 700;
+    font-size: 0.75rem;  /* Reduced font size */
+    color: hsl(0, 1%, 44%);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  input {
+    font-size: 28px;  /* Reduced font size */
+    padding: 0.25rem;  /* Reduced padding */
+    border: 1px solid hsl(0, 0%, 86%);
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 0.25rem;  /* Reduced margin-top */
+    color: hsl(0, 0%, 8%);
+  }
+  
+  button {
+    background-color: hsl(259, 100%, 65%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    padding: 0.5rem 1rem;  /* Reduced padding */
+    font-size: 0.875rem;  /* Reduced font size */
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 700;
+    margin-top: 0.5rem;  /* Reduced margin-top */
+  }
+  
+  button:hover {
+    background-color: hsl(259, 80%, 55%);
+  }
+  
+  .output-container {
+    margin-top: 1rem;  /* Reduced margin-top */
+  }
+  
+  .output-container p {
+    font-size: 1.5rem;  /* Reduced font size */
+    margin: 0.25rem 0;  /* Reduced margin */
+    font-weight: 700;
+    color: hsl(0, 0%, 8%);
+  }
+  
+  .output-container span {
+    font-weight: 800;
+    color: hsl(0, 100%, 67%);
+  }
+  
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 1rem;  /* Reduced margin-top */
+  }
+  
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  
